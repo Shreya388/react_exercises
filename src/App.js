@@ -1,10 +1,11 @@
 import './App.css';
-import StateTutorial from './State';
+import Reducer from './Reducer';
+
 
 function App() {
   return (
     <div className="App">
-        <h1><StateTutorial /></h1>
+        <h1><Reducer /></h1>
     </div>
   );
 }
