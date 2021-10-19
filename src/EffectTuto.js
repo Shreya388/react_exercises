@@ -15,8 +15,12 @@ const EffectTuto = () => {
         <div>
             <p>you pressed the button {count} times</p>
             <button onClick={() => setCount(count + 1)}>
-                Press it
+                +
             </button>
+            <button onClick={() => setCount(count - 1)}>
+                -
+            </button>
+            
         </div>
      
     )}
