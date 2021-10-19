@@ -1,11 +1,11 @@
 import './App.css';
-import Reducer from './Reducer';
+import EffectTuto from './EffectTuto';
 
 
 function App() {
   return (
     <div className="App">
-        <h1><Reducer /></h1>
+        <h1><EffectTuto /></h1>
     </div>
   );
 }
