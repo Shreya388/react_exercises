@@ -1,11 +1,11 @@
 import './App.css';
-import EffectTuto from './EffectTuto';
+import MovieList from './movieList';
 
 
 function App() {
   return (
     <div className="App">
-        <h1><EffectTuto /></h1>
+        <MovieList />
     </div>
   );
 }
